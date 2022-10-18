@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopmentWithDotnet", "DevelopmentWithDotnet\DevelopmentWithDotnet.csproj", "{3DC8881D-7128-47F0-BD66-1D89D13A0622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal.API", "Minimal.API\Minimal.API.csproj", "{8786737A-C473-4E72-B951-CAD6E2CE5319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DC8881D-7128-47F0-BD66-1D89D13A0622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC8881D-7128-47F0-BD66-1D89D13A0622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC8881D-7128-47F0-BD66-1D89D13A0622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC8881D-7128-47F0-BD66-1D89D13A0622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8786737A-C473-4E72-B951-CAD6E2CE5319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8786737A-C473-4E72-B951-CAD6E2CE5319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8786737A-C473-4E72-B951-CAD6E2CE5319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8786737A-C473-4E72-B951-CAD6E2CE5319}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
