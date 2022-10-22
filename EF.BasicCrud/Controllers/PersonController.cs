@@ -1,4 +1,4 @@
-using EF.BasicCrud.Models;
+using DWD.Shared;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EF.BasicCrud.Controllers;

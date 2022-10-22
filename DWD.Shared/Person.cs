@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EF.BasicCrud.Models;
+namespace DWD.Shared;
+
 
 public class Person
 {

@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal.API", "Minimal.API\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.BasicCrud", "EF.BasicCrud\EF.BasicCrud.csproj", "{34BB7727-150A-4F44-968A-FEF8D05C5CA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal.API.WithValidation", "Minimal.API.WithValidation\Minimal.API.WithValidation.csproj", "{8884CAF1-1B40-4762-92F4-99F470204FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.Shared", "DWD.Shared\DWD.Shared.csproj", "{AF96D359-007A-49DD-B7E0-47070C84B61E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{34BB7727-150A-4F44-968A-FEF8D05C5CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34BB7727-150A-4F44-968A-FEF8D05C5CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34BB7727-150A-4F44-968A-FEF8D05C5CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8884CAF1-1B40-4762-92F4-99F470204FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8884CAF1-1B40-4762-92F4-99F470204FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8884CAF1-1B40-4762-92F4-99F470204FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8884CAF1-1B40-4762-92F4-99F470204FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF96D359-007A-49DD-B7E0-47070C84B61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF96D359-007A-49DD-B7E0-47070C84B61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF96D359-007A-49DD-B7E0-47070C84B61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF96D359-007A-49DD-B7E0-47070C84B61E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
