@@ -2,9 +2,11 @@ using System.Text.Json;
 using DWD.Shared;
 using FluentValidation;
 using Minimal.API.WithValidation;
+using static Microsoft.AspNetCore.Http.Results;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddValidatorsFromAssemblyContaining<Program>();
+
+builder.Services.AddValidator<Person, PersonValidator>();
 var app = builder.Build();
 app.MapGet("/info", () => JsonSerializer.Serialize(new
 {
@@ -18,9 +20,10 @@ app.MapGet("/info", () => JsonSerializer.Serialize(new
 app.MapPost("/person", (Validated<Person> person) =>
 {
     var (isValid, value) = person;
+    
     return isValid 
-        ? JsonSerializer.Serialize(value) 
-        : JsonSerializer.Serialize(person.Errors);
+        ? Ok(value) 
+        : ValidationProblem(person.Errors);
 });
 
 app.Run();

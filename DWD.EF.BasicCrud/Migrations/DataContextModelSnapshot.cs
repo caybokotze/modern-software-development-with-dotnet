@@ -16,7 +16,7 @@ namespace EF.BasicCrud.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.10");
 
-            modelBuilder.Entity("EF.BasicCrud.Models.Person", b =>
+            modelBuilder.Entity("DWD.EF.BasicCrud.Models.Person", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

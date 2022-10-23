@@ -1,14 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopmentWithDotnet", "DevelopmentWithDotnet\DevelopmentWithDotnet.csproj", "{3DC8881D-7128-47F0-BD66-1D89D13A0622}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.Minimal.API", "DWD.Minimal.API\DWD.Minimal.API.csproj", "{8786737A-C473-4E72-B951-CAD6E2CE5319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal.API", "Minimal.API\Minimal.API.csproj", "{8786737A-C473-4E72-B951-CAD6E2CE5319}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.EF.BasicCrud", "DWD.EF.BasicCrud\DWD.EF.BasicCrud.csproj", "{34BB7727-150A-4F44-968A-FEF8D05C5CA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.BasicCrud", "EF.BasicCrud\EF.BasicCrud.csproj", "{34BB7727-150A-4F44-968A-FEF8D05C5CA8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal.API.WithValidation", "Minimal.API.WithValidation\Minimal.API.WithValidation.csproj", "{8884CAF1-1B40-4762-92F4-99F470204FEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.Minimal.API.WithValidation", "DWD.Minimal.API.WithValidation\DWD.Minimal.API.WithValidation.csproj", "{8884CAF1-1B40-4762-92F4-99F470204FEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.Shared", "DWD.Shared\DWD.Shared.csproj", "{AF96D359-007A-49DD-B7E0-47070C84B61E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.CSharpBasics", "DWD.CSharpBasics\DWD.CSharpBasics.csproj", "{C4CFDFF8-AE25-4EAE-A039-844A84DD34ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.CSharpAdvanced", "DWD.CSharpAdvanced\DWD.CSharpAdvanced.csproj", "{A3D73D82-51CF-4DBC-8C25-3B57A9554575}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,10 +18,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3DC8881D-7128-47F0-BD66-1D89D13A0622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DC8881D-7128-47F0-BD66-1D89D13A0622}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DC8881D-7128-47F0-BD66-1D89D13A0622}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DC8881D-7128-47F0-BD66-1D89D13A0622}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8786737A-C473-4E72-B951-CAD6E2CE5319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8786737A-C473-4E72-B951-CAD6E2CE5319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8786737A-C473-4E72-B951-CAD6E2CE5319}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,5 +34,13 @@ Global
 		{AF96D359-007A-49DD-B7E0-47070C84B61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF96D359-007A-49DD-B7E0-47070C84B61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF96D359-007A-49DD-B7E0-47070C84B61E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CFDFF8-AE25-4EAE-A039-844A84DD34ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CFDFF8-AE25-4EAE-A039-844A84DD34ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CFDFF8-AE25-4EAE-A039-844A84DD34ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CFDFF8-AE25-4EAE-A039-844A84DD34ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D73D82-51CF-4DBC-8C25-3B57A9554575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D73D82-51CF-4DBC-8C25-3B57A9554575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D73D82-51CF-4DBC-8C25-3B57A9554575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D73D82-51CF-4DBC-8C25-3B57A9554575}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
