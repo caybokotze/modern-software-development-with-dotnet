@@ -5,6 +5,8 @@ using static Microsoft.AspNetCore.Http.Results;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddTransient<PersonService, PersonService>();
+
 builder.Services.AddValidator<Person, PersonValidator>();
 builder.Services.AddTransient<IPersonService, PersonService>();
 var app = builder.Build();
