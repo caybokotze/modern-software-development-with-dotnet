@@ -1,13 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using DWD.Shared;
-
-namespace CSharpAdvanced;
+namespace DWD.SolidPrinciples;
 
 public static class Program
 {
     public static void Main()
     {
-        Invoker.Run<Reflection>();
+        
     }
 }
