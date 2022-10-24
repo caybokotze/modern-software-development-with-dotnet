@@ -66,3 +66,23 @@ public class ForEachLoop : IRunnable
         }
     }
 }
+
+public class RecursiveLoop : IRunnable
+{
+    public void Run()
+    {
+        ExecuteLogic();
+    }
+
+    private int i = 0;
+
+    public void ExecuteLogic()
+    {
+        i += 1;
+        Console.WriteLine("The value of i is {0}", i);
+        if (i < 10)
+        {
+            ExecuteLogic();
+        }
+    }
+}

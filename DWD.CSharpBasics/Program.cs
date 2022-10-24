@@ -8,6 +8,6 @@ public static class Program
 {
     public static void Main()
     {
-        Invoker.Run<Linq>();
+        Invoker.Run<RecursiveLoop>();
     }
 }

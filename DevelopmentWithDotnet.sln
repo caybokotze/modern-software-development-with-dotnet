@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.CSharpAdvanced", "DWD.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.SolidPrinciples", "DWD.SolidPrinciples\DWD.SolidPrinciples.csproj", "{D0B33F44-E68A-4322-894D-55502D61017D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.UnitTesting", "DWD.UnitTesting\DWD.UnitTesting.csproj", "{5FBB700D-59B8-4A7B-AF7E-8943F4870BBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{D0B33F44-E68A-4322-894D-55502D61017D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B33F44-E68A-4322-894D-55502D61017D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B33F44-E68A-4322-894D-55502D61017D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FBB700D-59B8-4A7B-AF7E-8943F4870BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBB700D-59B8-4A7B-AF7E-8943F4870BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBB700D-59B8-4A7B-AF7E-8943F4870BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBB700D-59B8-4A7B-AF7E-8943F4870BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

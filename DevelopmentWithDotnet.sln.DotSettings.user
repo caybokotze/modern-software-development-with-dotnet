@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0611f577_002D2826_002D4682_002D9932_002Db733056914b2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldReturnTheProvidedValue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5FBB700D-59B8-4A7B-AF7E-8943F4870BBF::net6.0::DWD.UnitTesting.MathServiceTests+GetMeanValueTests+WhenASingleParameterIsProvided.ShouldReturnTheProvidedValue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5FBB700D-59B8-4A7B-AF7E-8943F4870BBF::net6.0::DWD.UnitTesting.MathServiceTests+GetMeanValueTests+WhenTwoParametersAreProvided.ShouldReturnHalfOfThatValue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5FBB700D-59B8-4A7B-AF7E-8943F4870BBF::net6.0::DWD.UnitTesting.MathServiceTests+GetMeanValueTests+WhenThreeParametersAreProvided.ShouldReturnAThirdOfThatValue&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
