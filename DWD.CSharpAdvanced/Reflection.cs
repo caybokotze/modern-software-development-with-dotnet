@@ -16,6 +16,8 @@ public class Reflection : IRunnable
             LastName = Faker.Name.Last(),
             Age = DateTime.UtcNow.Year - Faker.Identification.DateOfBirth().Year
         };
+
+        var age = person.Age;
         
         // print out all the property names for person without reflection
         Console.WriteLine("Property names without reflection");

@@ -5,7 +5,6 @@ namespace DWD.SolidPrinciples;
 public class LiskovSubstitution
 {
     #region The darkness
-
     public class SqlFile
     {
         public string LoadText()

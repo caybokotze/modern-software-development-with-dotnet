@@ -24,8 +24,11 @@ public class UnsafeCode : IRunnable
         Console.WriteLine("Values after unsafe swap: i = {0}, j = {1}", i, j);
     }
     
-    public unsafe static void UnsafeSwap(int* i, int* j) 
+    public unsafe static void UnsafeSwap(int* i, int* j)
     {
+        var b = 1;
+        var c = new {name = "object"};
+        var someAddress = &b;
         var temp = *i;
         *i = *j;
         *j = temp;

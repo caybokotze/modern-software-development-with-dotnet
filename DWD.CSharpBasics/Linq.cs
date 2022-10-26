@@ -29,6 +29,9 @@ public class Linq : IRunnable
                 Age = DateTime.UtcNow.Year - Faker.Identification.DateOfBirth().Year
             }
         };
+
+
+        var ages = people.Select(s => s.Age);
         
         // find the first person with the lowest age.
         var youngestPersonQuerySyntax = (from person in people orderby person.Age select person).First();
