@@ -1,4 +1,4 @@
-﻿namespace CSharpBasics;
+﻿namespace CSharpBasics.Animals;
 
 interface IFurInterface
 {

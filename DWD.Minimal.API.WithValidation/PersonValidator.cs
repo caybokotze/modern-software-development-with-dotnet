@@ -7,7 +7,7 @@ public class PersonValidator : AbstractValidator<Person>
 {
     public PersonValidator()
     {
-        RuleFor(m => m.FirstName).NotEmpty().MinimumLength(5);
+        RuleFor(m => m.FirstName).NotEmpty().MinimumLength(4);
         RuleFor(m => m.LastName).NotEmpty().MinimumLength(5);
     }
 }

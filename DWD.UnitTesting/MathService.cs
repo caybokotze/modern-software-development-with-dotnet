@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Linq;
 
 namespace DWD.UnitTesting;
@@ -10,6 +11,11 @@ public interface ISumService
 
 public class SumService : ISumService
 {
+    public SumService(int a, int b, int c)
+    {
+        
+    }
+    
     public int Add(params int[] values)
     {
         return values.Sum();
@@ -42,10 +48,15 @@ public class MathService
         _multiplicationService = multiplicationService;
     }
 
-    public int GetMeanValue(params int[] values)
+    public double GetMeanValue(params int[] values)
     {
+        if (values.Length == 0)
+        {
+            throw new InvalidOperationException("Cannot divide by zero");
+        }
+        
         var sum = _sumService.Add(values);
         var divideByTwo = _multiplicationService.Multiply(sum, 1.0 / values.Length);
-        return (int) divideByTwo;
+        return divideByTwo;
     }
 }
