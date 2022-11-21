@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.SolidPrinciples", "DWD.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.UnitTesting", "DWD.UnitTesting\DWD.UnitTesting.csproj", "{5FBB700D-59B8-4A7B-AF7E-8943F4870BBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.DependencyInjection", "DWD.DependencyInjection\DWD.DependencyInjection.csproj", "{133C4914-155F-4C61-848B-8F9FC61CE2EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.BasicAPI", "DWD.BasicAPI\DWD.BasicAPI.csproj", "{D44EEC40-F2D2-4550-9A22-D8E4BAC028DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +58,13 @@ Global
 		{5FBB700D-59B8-4A7B-AF7E-8943F4870BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FBB700D-59B8-4A7B-AF7E-8943F4870BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FBB700D-59B8-4A7B-AF7E-8943F4870BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{133C4914-155F-4C61-848B-8F9FC61CE2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133C4914-155F-4C61-848B-8F9FC61CE2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133C4914-155F-4C61-848B-8F9FC61CE2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133C4914-155F-4C61-848B-8F9FC61CE2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44EEC40-F2D2-4550-9A22-D8E4BAC028DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44EEC40-F2D2-4550-9A22-D8E4BAC028DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44EEC40-F2D2-4550-9A22-D8E4BAC028DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44EEC40-F2D2-4550-9A22-D8E4BAC028DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

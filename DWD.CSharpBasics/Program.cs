@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization.Metadata;
 using CSharpBasics.Animals;
@@ -27,10 +28,18 @@ public static class Program
         // dog.Bark();
         // cat.Bark();
 
-        var invoker = new Invoker();
-        var person = invoker.CreateInstance<Person>();
-        Console.WriteLine(JsonSerializer.Serialize(person));
-        var dog = new Dog();
+        // var invoker = new Invoker();
+        // var person = invoker.CreateInstance<Person>();
+        // Console.WriteLine(JsonSerializer.Serialize(person));
+        // var dog = new Dog();
+
+        var sb = new StringBuilder();
+        sb.Append("I am your new neighbour.");
+        sb.Append("Hi I am John.");
+        sb.Append("Welcome to the street!");
+        // var chunks = sb[];
+        
+        Console.WriteLine(sb.ToString());
     }
 }
 
