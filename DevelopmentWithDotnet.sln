@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.Minimal.API", "DWD.Minimal.API\DWD.Minimal.API.csproj", "{8786737A-C473-4E72-B951-CAD6E2CE5319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.EF.BasicCrud", "DWD.EF.BasicCrud\DWD.EF.BasicCrud.csproj", "{34BB7727-150A-4F44-968A-FEF8D05C5CA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.MVC.Crud.API", "DWD.MVC.Crud.API\DWD.MVC.Crud.API.csproj", "{34BB7727-150A-4F44-968A-FEF8D05C5CA8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.Minimal.API.WithValidation", "DWD.Minimal.API.WithValidation\DWD.Minimal.API.WithValidation.csproj", "{8884CAF1-1B40-4762-92F4-99F470204FEF}"
 EndProject

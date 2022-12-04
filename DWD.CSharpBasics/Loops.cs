@@ -11,7 +11,7 @@ public class WhileLoop : IRunnable
 
         while (true)
         {
-            Console.WriteLine($"This is iteration number {i}");
+            Console.WriteLine($"This is iteration number {i}.");
 
             if (i >= 10)
             {
@@ -63,26 +63,6 @@ public class ForEachLoop : IRunnable
         foreach (var person in people)
         {
             Console.WriteLine(JsonSerializer.Serialize(person));
-        }
-    }
-}
-
-public class RecursiveLoop : IRunnable
-{
-    public void Run()
-    {
-        ExecuteLogic();
-    }
-
-    private int i = 0;
-
-    public void ExecuteLogic()
-    {
-        i += 1;
-        Console.WriteLine("The value of i is {0}", i);
-        if (i < 10)
-        {
-            ExecuteLogic();
         }
     }
 }

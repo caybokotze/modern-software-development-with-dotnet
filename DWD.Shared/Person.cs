@@ -2,33 +2,20 @@
 
 namespace DWD.Shared;
 
-public interface IAdministrator
+public interface IUser
 {
-    public bool IsAdministrator { get; set; }
+    int Id { get; set; }
+    string? Email { get; set; }
+    string? Password { get; set; }
+    int Age { get; set; }
 }
 
-public interface ISecretary
+public class User : IUser
 {
-    public bool IsSecretary { get; set; }
-}
-
-public class Person : IAdministrator, ISecretary
-{
-    [Key]
     public int Id { get; set; }
     public string? FirstName { get; set; }
     public string? LastName { get; set; }
     public string? Email { get; set; }
     public string? Password { get; set; }
     public int Age { get; set; }
-
-    public bool IsAdministrator { get; set; }
-    public bool IsSecretary { get; set; }
-}
-
-public class User
-{
-    public int Id { get; set; }
-    public string? Email { get; set; }
-    public string? Password { get; set; }
 }

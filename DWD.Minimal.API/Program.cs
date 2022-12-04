@@ -3,6 +3,7 @@ using DWD.Shared;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
+
 app.MapGet("/info", () => JsonSerializer.Serialize(
     new
 {

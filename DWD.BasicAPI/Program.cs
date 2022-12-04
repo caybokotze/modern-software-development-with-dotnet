@@ -23,13 +23,5 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
-
-app.Run(async httpContext =>
-{
-    var randomText = "Hey there!";
-    httpContext.Response.StatusCode = 400;
-    await httpContext.Response.Body.WriteAsync(Encoding.UTF8.GetBytes(randomText));
-});
-
 app.MapControllers();
 app.Run();

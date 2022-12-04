@@ -5,22 +5,22 @@ namespace CSharpBasics;
 
 public class DependencyInjection
 {
-    public class PersonService
+    public class UserService
     {
-        private readonly DatabaseDependency _databaseDependency;
+        private readonly UserRepository _userRepository;
 
-        public PersonService(DatabaseDependency databaseDependency)
+        public UserService(UserRepository userRepository)
         {
-            _databaseDependency = databaseDependency;
+            _userRepository = userRepository;
         }
 
-        public void SavePerson(Person person)
+        public void SaveUser(User person)
         {
-            _databaseDependency.SaveObject(person);
+            _userRepository.SaveObject(person);
         }
     }
 
-    public class DatabaseDependency
+    public class UserRepository
     {
         public void SaveObject(object value)
         {
@@ -32,7 +32,7 @@ public class DependencyInjection
     {
         public static IServiceContainer Add(IServiceContainer serviceContainer)
         {
-            serviceContainer.AddService(typeof(PersonService), serviceContainer);
+            serviceContainer.AddService(typeof(UserService), serviceContainer);
             return serviceContainer;
         }
     }

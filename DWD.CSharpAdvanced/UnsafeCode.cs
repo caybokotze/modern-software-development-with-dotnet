@@ -26,9 +26,6 @@ public class UnsafeCode : IRunnable
     
     public unsafe static void UnsafeSwap(int* i, int* j)
     {
-        var b = 1;
-        var c = new {name = "object"};
-        var someAddress = &b;
         var temp = *i;
         *i = *j;
         *j = temp;
@@ -39,5 +36,10 @@ public class UnsafeCode : IRunnable
         int temp = i;
         i = j;
         j = temp;
+    }
+    
+    public static void SuccinctSafeSwap(ref int i, ref int j) 
+    {
+        (i, j) = (j, i);
     }
 }

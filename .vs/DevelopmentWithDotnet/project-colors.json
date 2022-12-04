@@ -15,7 +15,22 @@
       "ProjectGuid": "a3d73d82-51cf-4dbc-8c25-3b57a9554575",
       "DisplayName": "DWD.CSharpAdvanced",
       "ColorIndex": 1
+    },
+    "d44eec40-f2d2-4550-9a22-d8e4bac028df": {
+      "ProjectGuid": "d44eec40-f2d2-4550-9a22-d8e4bac028df",
+      "DisplayName": "DWD.BasicAPI",
+      "ColorIndex": 2
+    },
+    "8884caf1-1b40-4762-92f4-99f470204fef": {
+      "ProjectGuid": "8884caf1-1b40-4762-92f4-99f470204fef",
+      "DisplayName": "DWD.Minimal.API.WithValidation",
+      "ColorIndex": 3
+    },
+    "34bb7727-150a-4f44-968a-fef8d05c5ca8": {
+      "ProjectGuid": "34bb7727-150a-4f44-968a-fef8d05c5ca8",
+      "DisplayName": "DWD.EF.BasicCrud",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 5
 }

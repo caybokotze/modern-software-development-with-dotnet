@@ -18,7 +18,7 @@ public class PersonController : ControllerBase
     [Route("insert")]
     public void InsertPerson(Person person)
     {
-        _dataContext.People.Add(person);
+        _dataContext.People?.Add(person);
         _dataContext.SaveChanges();
     }
 }
